@@ -825,277 +825,728 @@
       },
       {
         "subject": "Python",
-        "question": "What is Python, and why is it popular?",
+        "question": "What is the Single Responsibility Principle in OOPS?",
         "options": [
-          "A database management system",
-          "A high-level, interpreted programming language",
-          "A low-level assembly language",
-          "A web browser"
+          "A class should have only one reason to change",
+          "A class should inherit from multiple classes",
+          "A class should have private methods",
+          "A class should be abstract"
         ],
-        "correct": "A high-level, interpreted programming language"
+        "correct": "A class should have only one reason to change"
+      },
+      {
+        "subject": "Python",
+        "question": "What is encapsulation in Python?",
+        "options": [
+          "Hiding the internal state of an object and restricting access",
+          "Inheriting methods from multiple classes",
+          "Creating abstract classes",
+          "Overloading operators"
+        ],
+        "correct": "Hiding the internal state of an object and restricting access"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between a class and an object?",
+        "options": [
+          "A class is a blueprint, and an object is an instance of a class",
+          "A class is an instance, and an object is a blueprint",
+          "A class is immutable, and an object is mutable",
+          "A class is a function, and an object is a variable"
+        ],
+        "correct": "A class is a blueprint, and an object is an instance of a class"
+      },
+      {
+        "subject": "Python",
+        "question": "What is inheritance in Python?",
+        "options": [
+          "A class deriving properties from another class",
+          "A class hiding its methods",
+          "A class creating multiple instances",
+          "A class overloading operators"
+        ],
+        "correct": "A class deriving properties from another class"
+      },
+      {
+        "subject": "Python",
+        "question": "What is polymorphism in Python?",
+        "options": [
+          "The ability to take multiple forms",
+          "The ability to hide data",
+          "The ability to inherit from multiple classes",
+          "The ability to create immutable objects"
+        ],
+        "correct": "The ability to take multiple forms"
       },
       {
         "subject": "Python",
         "question": "What is the difference between a list and a tuple in Python?",
         "options": [
-          "Lists are immutable, tuples are mutable",
           "Lists are mutable, tuples are immutable",
-          "Both are immutable",
-          "Both are mutable"
+          "Lists are immutable, tuples are mutable",
+          "Lists are ordered, tuples are unordered",
+          "Lists are indexed, tuples are not"
         ],
         "correct": "Lists are mutable, tuples are immutable"
       },
       {
         "subject": "Python",
-        "question": "What is PEP 8?",
+        "question": "What is a Python dictionary?",
         "options": [
-          "A Python database library",
-          "A style guide for Python code",
-          "A Python testing framework",
-          "A Python package manager"
+          "A collection of key-value pairs",
+          "A collection of ordered elements",
+          "A collection of unique elements",
+          "A collection of immutable elements"
         ],
-        "correct": "A style guide for Python code"
-      },
-      {
-        "subject": "Python",
-        "question": "How does Python handle memory management?",
-        "options": [
-          "Manually by the programmer",
-          "Using garbage collection",
-          "Using static memory allocation",
-          "Using a stack-based approach"
-        ],
-        "correct": "Using garbage collection"
-      },
-      {
-        "subject": "Python",
-        "question": "What is the purpose of the 'self' keyword in Python?",
-        "options": [
-          "To refer to the class blueprint",
-          "To refer to the current instance of the class",
-          "To define a static method",
-          "To create a new variable"
-        ],
-        "correct": "To refer to the current instance of the class"
-      },
-      {
-        "subject": "Python",
-        "question": "What is a lambda function in Python?",
-        "options": [
-          "A named function with multiple arguments",
-          "An anonymous, inline function",
-          "A function that runs in a loop",
-          "A function for database operations"
-        ],
-        "correct": "An anonymous, inline function"
-      },
-      {
-        "subject": "Python",
-        "question": "What is the difference between '==' and 'is' operators in Python?",
-        "options": [
-          "'==' checks identity, 'is' checks value equality",
-          "'==' checks value equality, 'is' checks identity",
-          "Both check value equality",
-          "Both check identity"
-        ],
-        "correct": "'==' checks value equality, 'is' checks identity"
-      },
-      {
-        "subject": "Python",
-        "question": "What are Python decorators?",
-        "options": [
-          "Functions that modify the behavior of other functions",
-          "Classes that inherit from other classes",
-          "Modules for database connectivity",
-          "Syntax for error handling"
-        ],
-        "correct": "Functions that modify the behavior of other functions"
+        "correct": "A collection of key-value pairs"
       },
       {
         "subject": "Python",
         "question": "What is the use of the 'pass' statement in Python?",
         "options": [
-          "To terminate a loop",
-          "To act as a placeholder for future code",
-          "To raise an exception",
-          "To import a module"
+          "It acts as a placeholder for future code",
+          "It terminates a loop",
+          "It raises an exception",
+          "It skips the current iteration"
         ],
-        "correct": "To act as a placeholder for future code"
+        "correct": "It acts as a placeholder for future code"
       },
       {
         "subject": "Python",
-        "question": "What is the difference between a shallow copy and a deep copy?",
+        "question": "What is the difference between '==' and 'is' operators?",
+        "options": [
+          "'==' checks value equality, 'is' checks identity",
+          "'==' checks identity, 'is' checks value equality",
+          "'==' checks type, 'is' checks value",
+          "'==' checks reference, 'is' checks type"
+        ],
+        "correct": "'==' checks value equality, 'is' checks identity"
+      },
+      {
+        "subject": "Python",
+        "question": "What are Python's built-in data types?",
+        "options": [
+          "int, float, str, list, tuple, dict, set",
+          "int, char, string, array",
+          "number, string, boolean",
+          "int, double, char, list"
+        ],
+        "correct": "int, float, str, list, tuple, dict, set"
+      },
+      {
+        "subject": "Python",
+        "question": "What is a lambda function in Python?",
+        "options": [
+          "An anonymous function defined with lambda",
+          "A recursive function",
+          "A function with default arguments",
+          "A function that returns None"
+        ],
+        "correct": "An anonymous function defined with lambda"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between *args and **kwargs?",
+        "options": [
+          "*args is for positional arguments, **kwargs is for keyword arguments",
+          "*args is for keyword arguments, **kwargs is for positional arguments",
+          "*args is for lists, **kwargs is for dictionaries",
+          "*args is for tuples, **kwargs is for sets"
+        ],
+        "correct": "*args is for positional arguments, **kwargs is for keyword arguments"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the purpose of the 'return' statement?",
+        "options": [
+          "To return a value from a function",
+          "To terminate a loop",
+          "To skip an iteration",
+          "To raise an exception"
+        ],
+        "correct": "To return a value from a function"
+      },
+      {
+        "subject": "Python",
+        "question": "What is a decorator in Python?",
+        "options": [
+          "A function that modifies another function",
+          "A function that calls itself",
+          "A function with default arguments",
+          "A function that returns None"
+        ],
+        "correct": "A function that modifies another function"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between a function and a method?",
+        "options": [
+          "A method is a function defined inside a class",
+          "A function is a method defined outside a class",
+          "A method is immutable, a function is mutable",
+          "A function is recursive, a method is not"
+        ],
+        "correct": "A method is a function defined inside a class"
+      },
+      {
+        "subject": "Python",
+        "question": "What is a set in Python?",
+        "options": [
+          "An unordered collection of unique elements",
+          "An ordered collection of elements",
+          "A collection of key-value pairs",
+          "A collection of immutable elements"
+        ],
+        "correct": "An unordered collection of unique elements"
+      },
+      {
+        "subject": "Python",
+        "question": "How do you remove duplicates from a list?",
+        "options": [
+          "Convert the list to a set and back to a list",
+          "Sort the list and remove adjacent duplicates",
+          "Use a loop to remove elements",
+          "Use the pop() method"
+        ],
+        "correct": "Convert the list to a set and back to a list"
+      },
+      {
+        "subject": "Python",
+        "question": "What is a list comprehension in Python?",
+        "options": [
+          "A concise way to create lists",
+          "A way to sort lists",
+          "A way to copy lists",
+          "A way to reverse lists"
+        ],
+        "correct": "A concise way to create lists"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between append() and extend() in Python lists?",
+        "options": [
+          "append() adds an element, extend() adds multiple elements",
+          "append() adds multiple elements, extend() adds one element",
+          "append() modifies the list, extend() creates a new list",
+          "append() removes elements, extend() adds elements"
+        ],
+        "correct": "append() adds an element, extend() adds multiple elements"
+      },
+      {
+        "subject": "Python",
+        "question": "What is a queue in Python?",
+        "options": [
+          "A FIFO data structure",
+          "A LIFO data structure",
+          "A key-value pair structure",
+          "A sorted data structure"
+        ],
+        "correct": "A FIFO data structure"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the purpose of try-except in Python?",
+        "options": [
+          "To handle exceptions and prevent crashes",
+          "To define functions",
+          "To create loops",
+          "To import modules"
+        ],
+        "correct": "To handle exceptions and prevent crashes"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the 'finally' block used for?",
+        "options": [
+          "To execute code regardless of an exception",
+          "To raise an exception",
+          "To skip an exception",
+          "To terminate a program"
+        ],
+        "correct": "To execute code regardless of an exception"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the 'raise' keyword used for?",
+        "options": [
+          "To manually raise an exception",
+          "To return a value",
+          "To skip an iteration",
+          "To terminate a loop"
+        ],
+        "correct": "To manually raise an exception"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between 'except' and 'except Exception'?",
+        "options": [
+          "'except' catches all exceptions, 'except Exception' catches specific ones",
+          "'except' catches specific exceptions, 'except Exception' catches all",
+          "'except' is for syntax errors, 'except Exception' is for runtime errors",
+          "'except' is for runtime errors, 'except Exception' is for syntax errors"
+        ],
+        "correct": "'except' catches all exceptions, 'except Exception' catches specific ones"
+      },
+      {
+        "subject": "Python",
+        "question": "What is a custom exception in Python?",
+        "options": [
+          "An exception defined by the user",
+          "An exception built into Python",
+          "An exception for syntax errors",
+          "An exception for file operations"
+        ],
+        "correct": "An exception defined by the user"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the purpose of the 'import' statement?",
+        "options": [
+          "To include external modules or libraries",
+          "To define a function",
+          "To create a loop",
+          "To handle exceptions"
+        ],
+        "correct": "To include external modules or libraries"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between 'import module' and 'from module import *'?",
+        "options": [
+          "'from module import *' imports all names, 'import module' imports the module",
+          "'import module' imports all names, 'from module import *' imports the module",
+          "'from module import *' is more efficient",
+          "'import module' is less efficient"
+        ],
+        "correct": "'from module import *' imports all names, 'import module' imports the module"
+      },
+      {
+        "subject": "Python",
+        "question": "What is a Python package?",
+        "options": [
+          "A directory with a __init__.py file",
+          "A single Python file",
+          "A compiled Python file",
+          "A Python function"
+        ],
+        "correct": "A directory with a __init__.py file"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the purpose of the __init__.py file?",
+        "options": [
+          "To mark a directory as a Python package",
+          "To define a function",
+          "To handle exceptions",
+          "To create a loop"
+        ],
+        "correct": "To mark a directory as a Python package"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between a module and a package?",
+        "options": [
+          "A module is a single file, a package is a directory of modules",
+          "A module is a directory, a package is a single file",
+          "A module is immutable, a package is mutable",
+          "A module is a function, a package is a class"
+        ],
+        "correct": "A module is a single file, a package is a directory of modules"
+      },
+      {
+        "subject": "Python",
+        "question": "How do you open a file in Python?",
+        "options": [
+          "Using the open() function",
+          "Using the read() function",
+          "Using the write() function",
+          "Using the close() function"
+        ],
+        "correct": "Using the open() function"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between 'r' and 'w' modes in file handling?",
+        "options": [
+          "'r' is for reading, 'w' is for writing",
+          "'r' is for writing, 'w' is for reading",
+          "'r' is for appending, 'w' is for reading",
+          "'r' is for reading, 'w' is for appending"
+        ],
+        "correct": "'r' is for reading, 'w' is for writing"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the purpose of the 'with' statement in file handling?",
+        "options": [
+          "To automatically close the file",
+          "To read the file",
+          "To write to the file",
+          "To append to the file"
+        ],
+        "correct": "To automatically close the file"
+      },
+      {
+        "subject": "Python",
+        "question": "How do you read a file line by line in Python?",
+        "options": [
+          "Using a for loop with the file object",
+          "Using the read() method",
+          "Using the write() method",
+          "Using the close() method"
+        ],
+        "correct": "Using a for loop with the file object"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between read() and readline()?",
+        "options": [
+          "read() reads the entire file, readline() reads one line",
+          "read() reads one line, readline() reads the entire file",
+          "read() reads binary data, readline() reads text",
+          "read() reads text, readline() reads binary data"
+        ],
+        "correct": "read() reads the entire file, readline() reads one line"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the purpose of the 're' module in Python?",
+        "options": [
+          "To work with regular expressions",
+          "To handle file operations",
+          "To manage exceptions",
+          "To create loops"
+        ],
+        "correct": "To work with regular expressions"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between shallow copy and deep copy?",
         "options": [
           "Shallow copy copies references, deep copy copies values",
-          "Deep copy copies references, shallow copy copies values",
-          "Both copy references",
-          "Both copy values"
+          "Shallow copy copies values, deep copy copies references",
+          "Shallow copy is immutable, deep copy is mutable",
+          "Shallow copy is faster, deep copy is slower"
         ],
         "correct": "Shallow copy copies references, deep copy copies values"
       },
       {
         "subject": "Python",
-        "question": "What is the purpose of the 'if __name__ == \"__main__\"' idiom in Python?",
+        "question": "What is the 'global' keyword used for?",
         "options": [
-          "To define a class",
-          "To check if a module is run directly or imported",
+          "To modify a variable outside the current scope",
+          "To define a function",
           "To handle exceptions",
           "To create a loop"
         ],
-        "correct": "To check if a module is run directly or imported"
+        "correct": "To modify a variable outside the current scope"
       },
       {
         "subject": "Python",
-        "question": "What are list comprehensions in Python?",
+        "question": "What is the difference between 'range()' and 'xrange()' in Python 2?",
         "options": [
-          "A way to create lists using concise syntax",
-          "A method for sorting lists",
-          "A function for merging lists",
-          "A tool for debugging lists"
+          "range() returns a list, xrange() returns an iterator",
+          "range() returns an iterator, xrange() returns a list",
+          "range() is immutable, xrange() is mutable",
+          "range() is faster, xrange() is slower"
         ],
-        "correct": "A way to create lists using concise syntax"
+        "correct": "range() returns a list, xrange() returns an iterator"
       },
       {
         "subject": "Python",
-        "question": "What is the Global Interpreter Lock (GIL) in Python?",
+        "question": "What is a generator in Python?",
         "options": [
-          "A lock for securing database connections",
-          "A mutex that protects access to Python objects",
-          "A tool for compiling Python code",
-          "A method for parallel processing"
+          "A function that yields values one at a time",
+          "A function that returns multiple values",
+          "A function that calls itself",
+          "A function with default arguments"
         ],
-        "correct": "A mutex that protects access to Python objects"
+        "correct": "A function that yields values one at a time"
       },
       {
         "subject": "Python",
-        "question": "What is the difference between 'append()' and 'extend()' methods in Python lists?",
+        "question": "What is the 'yield' keyword used for?",
         "options": [
-          "'append()' adds an element, 'extend()' adds multiple elements",
-          "'extend()' adds an element, 'append()' adds multiple elements",
-          "Both add single elements",
-          "Both add multiple elements"
+          "To produce a value from a generator",
+          "To terminate a loop",
+          "To raise an exception",
+          "To skip an iteration"
         ],
-        "correct": "'append()' adds an element, 'extend()' adds multiple elements"
+        "correct": "To produce a value from a generator"
       },
       {
         "subject": "Python",
-        "question": "What are Python generators?",
+        "question": "What is the difference between a list and a set in Python?",
         "options": [
-          "Functions that return an iterator yielding values",
-          "Classes for creating objects",
-          "Modules for file handling",
-          "Tools for exception handling"
-        ],
-        "correct": "Functions that return an iterator yielding values"
-      },
-      {
-        "subject": "Python",
-        "question": "What is the purpose of the 'try-except' block in Python?",
-        "options": [
-          "To define functions",
-          "To handle exceptions and errors",
-          "To create loops",
-          "To import modules"
-        ],
-        "correct": "To handle exceptions and errors"
-      },
-      {
-        "subject": "Python",
-        "question": "What is a dictionary in Python?",
-        "options": [
-          "A collection of ordered elements",
-          "A key-value pair data structure",
-          "A list of tuples",
-          "A set of unique values"
-        ],
-        "correct": "A key-value pair data structure"
-      },
-      {
-        "subject": "Python",
-        "question": "What is the difference between a set and a list in Python?",
-        "options": [
-          "Sets are ordered, lists are unordered",
-          "Sets are unordered and unique, lists are ordered and allow duplicates",
+          "Lists allow duplicates, sets do not",
+          "Lists are unordered, sets are ordered",
           "Lists are immutable, sets are mutable",
-          "Sets are mutable, lists are immutable"
+          "Lists are faster, sets are slower"
         ],
-        "correct": "Sets are unordered and unique, lists are ordered and allow duplicates"
+        "correct": "Lists allow duplicates, sets do not"
       },
       {
         "subject": "Python",
-        "question": "What is the purpose of the 'with' statement in Python?",
+        "question": "What is the 'map()' function used for?",
         "options": [
-          "To define a loop",
-          "To manage resources like files with automatic cleanup",
-          "To create a class",
-          "To handle exceptions"
+          "To apply a function to each item in an iterable",
+          "To filter elements in an iterable",
+          "To reduce an iterable to a single value",
+          "To sort an iterable"
         ],
-        "correct": "To manage resources like files with automatic cleanup"
+        "correct": "To apply a function to each item in an iterable"
       },
       {
         "subject": "Python",
-        "question": "What are *args and **kwargs in Python?",
+        "question": "What is the 'filter()' function used for?",
         "options": [
-          "Variables for loops",
-          "Syntax for variable-length arguments",
-          "Decorators for functions",
-          "Modules for data processing"
+          "To select elements from an iterable based on a condition",
+          "To apply a function to each item",
+          "To reduce an iterable to a single value",
+          "To sort an iterable"
         ],
-        "correct": "Syntax for variable-length arguments"
+        "correct": "To select elements from an iterable based on a condition"
       },
       {
         "subject": "Python",
-        "question": "What is the difference between Python 2 and Python 3?",
+        "question": "What is the 'reduce()' function in Python?",
         "options": [
-          "Python 2 uses Unicode by default, Python 3 does not",
-          "Python 3 uses print as a function, Python 2 uses a statement",
-          "Python 2 is faster than Python 3",
-          "Python 3 is backward compatible with Python 2"
+          "A function that applies a function to reduce an iterable to a single value",
+          "A function that filters elements",
+          "A function that maps elements",
+          "A function that sorts elements"
         ],
-        "correct": "Python 3 uses print as a function, Python 2 uses a statement"
+        "correct": "A function that applies a function to reduce an iterable to a single value"
       },
       {
         "subject": "Python",
-        "question": "What is the purpose of the 'zip()' function in Python?",
+        "question": "What is the difference between 'break' and 'continue' in a loop?",
         "options": [
-          "To compress files",
+          "break terminates the loop, continue skips the current iteration",
+          "break skips the current iteration, continue terminates the loop",
+          "break raises an exception, continue skips the loop",
+          "break terminates the program, continue skips the loop"
+        ],
+        "correct": "break terminates the loop, continue skips the current iteration"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the purpose of the 'else' clause in a loop?",
+        "options": [
+          "To execute code if the loop completes without a break",
+          "To handle exceptions",
+          "To skip an iteration",
+          "To terminate the loop"
+        ],
+        "correct": "To execute code if the loop completes without a break"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the 'zip()' function used for?",
+        "options": [
           "To combine multiple iterables into tuples",
-          "To sort lists",
-          "To split strings"
+          "To unzip a file",
+          "To sort an iterable",
+          "To filter an iterable"
         ],
         "correct": "To combine multiple iterables into tuples"
       },
       {
         "subject": "Python",
-        "question": "What is a virtual environment in Python?",
+        "question": "What is the difference between Python 2 and Python 3?",
         "options": [
-          "A tool for debugging code",
-          "An isolated environment for Python projects",
-          "A cloud-based Python interpreter",
-          "A library for GUI development"
+          "Python 3 has print as a function, Python 2 has it as a statement",
+          "Python 2 has print as a function, Python 3 has it as a statement",
+          "Python 3 is slower than Python 2",
+          "Python 2 supports Unicode, Python 3 does not"
         ],
-        "correct": "An isolated environment for Python projects"
+        "correct": "Python 3 has print as a function, Python 2 has it as a statement"
       },
       {
         "subject": "Python",
-        "question": "What is the difference between a module and a package in Python?",
+        "question": "What is the 'self' keyword in Python?",
         "options": [
-          "A module is a directory, a package is a file",
-          "A module is a file, a package is a directory with modules",
-          "Both are files",
-          "Both are directories"
+          "A reference to the instance of a class",
+          "A reference to a function",
+          "A reference to a module",
+          "A reference to a variable"
         ],
-        "correct": "A module is a file, a package is a directory with modules"
+        "correct": "A reference to the instance of a class"
       },
       {
         "subject": "Python",
-        "question": "What is the purpose of the 'map()' function in Python?",
+        "question": "What is the purpose of the '__init__' method?",
         "options": [
-          "To filter elements in a list",
-          "To apply a function to all items in an iterable",
-          "To sort a list",
-          "To create a dictionary"
+          "To initialize an object's attributes",
+          "To delete an object",
+          "To copy an object",
+          "To compare objects"
         ],
-        "correct": "To apply a function to all items in an iterable"
+        "correct": "To initialize an object's attributes"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between 'public' and 'private' attributes?",
+        "options": [
+          "Private attributes are prefixed with '__', public are not",
+          "Public attributes are prefixed with '__', private are not",
+          "Private attributes are immutable, public are mutable",
+          "Public attributes are faster, private are slower"
+        ],
+        "correct": "Private attributes are prefixed with '__', public are not"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the 'super()' function used for?",
+        "options": [
+          "To call a parent class's method",
+          "To create a new class",
+          "To delete a class",
+          "To copy a class"
+        ],
+        "correct": "To call a parent class's method"
+      },
+      {
+        "subject": "Python",
+        "question": "What is a static method in Python?",
+        "options": [
+          "A method that doesn't require an instance",
+          "A method that requires an instance",
+          "A method that is immutable",
+          "A method that is recursive"
+        ],
+        "correct": "A method that doesn't require an instance"
+      },
+      {
+        "subject": "Python",
+        "question": "What is a class method in Python?",
+        "options": [
+          "A method that takes the class as its first argument",
+          "A method that takes an instance as its first argument",
+          "A method that is immutable",
+          "A method that is recursive"
+        ],
+        "correct": "A method that takes the class as its first argument"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the purpose of the '@property' decorator?",
+        "options": [
+          "To create getter and setter methods",
+          "To define a static method",
+          "To define a class method",
+          "To define a recursive method"
+        ],
+        "correct": "To create getter and setter methods"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between mutable and immutable objects?",
+        "options": [
+          "Mutable objects can be changed, immutable cannot",
+          "Immutable objects can be changed, mutable cannot",
+          "Mutable objects are faster, immutable are slower",
+          "Immutable objects are ordered, mutable are not"
+        ],
+        "correct": "Mutable objects can be changed, immutable cannot"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the 'collections' module used for?",
+        "options": [
+          "To provide specialized container datatypes",
+          "To handle file operations",
+          "To manage exceptions",
+          "To create loops"
+        ],
+        "correct": "To provide specialized container datatypes"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the 'itertools' module used for?",
+        "options": [
+          "To provide tools for working with iterators",
+          "To handle file operations",
+          "To manage exceptions",
+          "To create loops"
+        ],
+        "correct": "To provide tools for working with iterators"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the 'functools' module used for?",
+        "options": [
+          "To provide tools for working with functions",
+          "To handle file operations",
+          "To manage exceptions",
+          "To create loops"
+        ],
+        "correct": "To provide tools for working with functions"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between a stack and a queue?",
+        "options": [
+          "Stack is LIFO, queue is FIFO",
+          "Stack is FIFO, queue is LIFO",
+          "Stack is mutable, queue is immutable",
+          "Stack is ordered, queue is unordered"
+        ],
+        "correct": "Stack is LIFO, queue is FIFO"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the purpose of the 'os' module?",
+        "options": [
+          "To interact with the operating system",
+          "To handle file operations",
+          "To manage exceptions",
+          "To create loops"
+        ],
+        "correct": "To interact with the operating system"
+      },{
+        "subject": "Python",
+        "question": "What is the purpose of the 'sys' module?",
+        "options": [
+          "To provide system-specific parameters and functions",
+          "To handle file operations",
+          "To manage exceptions",
+          "To create loops"
+        ],
+        "correct": "To provide system-specific parameters and functions"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the 'datetime' module used for?",
+        "options": [
+          "To work with dates and times",
+          "To handle file operations",
+          "To manage exceptions",
+          "To create loops"
+        ],
+        "correct": "To work with dates and times"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the 'json' module used for?",
+        "options": [
+          "To work with JSON data",
+          "To handle file operations",
+          "To manage exceptions",
+          "To create loops"
+        ],
+        "correct": "To work with JSON data"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the 'pickle' module used for?",
+        "options": [
+          "To serialize and deserialize Python objects",
+          "To handle file operations",
+          "To manage exceptions",
+          "To create loops"
+        ],
+        "correct": "To serialize and deserialize Python objects"
       }
+      
 ]
