@@ -1,0 +1,1101 @@
+[
+    {
+      "subject": "SQL",
+      "question": "What is the primary purpose of the SELECT statement in SQL?",
+      "options": [
+        "To insert data into a table",
+        "To retrieve data from a database",
+        "To update existing records",
+        "To delete records from a table"
+      ],
+      "correct": "To retrieve data from a database"
+    },
+    {
+      "subject": "SQL",
+      "question": "Which SQL clause is used to filter records in a query?",
+      "options": [
+        "ORDER BY",
+        "GROUP BY",
+        "WHERE",
+        "HAVING"
+      ],
+      "correct": "WHERE"
+    },
+    {
+      "subject": "SQL",
+      "question": "What does the JOIN clause do in SQL?",
+      "options": [
+        "Combines rows from two or more tables based on a related column",
+        "Sorts the result set",
+        "Groups rows with similar values",
+        "Filters aggregated data"
+      ],
+      "correct": "Combines rows from two or more tables based on a related column"
+    },
+    {
+      "subject": "SQL",
+      "question": "Which type of JOIN returns all records from both tables, with NULLs in places where there is no match?",
+      "options": [
+        "INNER JOIN",
+        "LEFT JOIN",
+        "RIGHT JOIN",
+        "FULL OUTER JOIN"
+      ],
+      "correct": "FULL OUTER JOIN"
+    },
+    {
+      "subject": "SQL",
+      "question": "What is the purpose of the GROUP BY clause?",
+      "options": [
+        "To sort the result set",
+        "To group rows with similar values into summary rows",
+        "To filter individual rows",
+        "To join multiple tables"
+      ],
+      "correct": "To group rows with similar values into summary rows"
+    },
+    {
+      "subject": "SQL",
+      "question": "Which SQL function is used to count the number of rows in a table?",
+      "options": [
+        "SUM()",
+        "AVG()",
+        "COUNT()",
+        "MAX()"
+      ],
+      "correct": "COUNT()"
+    },
+    {
+      "subject": "SQL",
+      "question": "What does the HAVING clause do in SQL?",
+      "options": [
+        "Filters individual rows before grouping",
+        "Filters grouped rows after aggregation",
+        "Sorts the result set",
+        "Joins tables"
+      ],
+      "correct": "Filters grouped rows after aggregation"
+    },
+    {
+      "subject": "SQL",
+      "question": "Which keyword is used to sort the result set in ascending order?",
+      "options": [
+        "ASC",
+        "DESC",
+        "SORT",
+        "ORDER"
+      ],
+      "correct": "ASC"
+    },
+    {
+      "subject": "SQL",
+      "question": "What is a primary key in SQL?",
+      "options": [
+        "A column that allows duplicate values",
+        "A unique identifier for each row in a table",
+        "A column that can contain NULL values",
+        "A column used for sorting"
+      ],
+      "correct": "A unique identifier for each row in a table"
+    },
+    {
+      "subject": "SQL",
+      "question": "What does the INSERT INTO statement do?",
+      "options": [
+        "Deletes records from a table",
+        "Updates existing records",
+        "Adds new records to a table",
+        "Retrieves data from a table"
+      ],
+      "correct": "Adds new records to a table"
+    },
+    {
+      "subject": "SQL",
+      "question": "Which SQL statement is used to modify existing records in a table?",
+      "options": [
+        "SELECT",
+        "UPDATE",
+        "DELETE",
+        "INSERT"
+      ],
+      "correct": "UPDATE"
+    },
+    {
+      "subject": "SQL",
+      "question": "What is the purpose of the DELETE statement in SQL?",
+      "options": [
+        "To retrieve data",
+        "To remove records from a table",
+        "To update records",
+        "To create a new table"
+      ],
+      "correct": "To remove records from a table"
+    },
+    {
+      "subject": "SQL",
+      "question": "What is a foreign key in SQL?",
+      "options": [
+        "A column that uniquely identifies a row",
+        "A column that references a primary key in another table",
+        "A column that allows NULL values only",
+        "A column used for sorting"
+      ],
+      "correct": "A column that references a primary key in another table"
+    },
+    {
+      "subject": "SQL",
+      "question": "Which SQL clause is used to limit the number of rows returned in a query?",
+      "options": [
+        "LIMIT",
+        "WHERE",
+        "GROUP BY",
+        "ORDER BY"
+      ],
+      "correct": "LIMIT"
+    },
+    {
+      "subject": "SQL",
+      "question": "What does the DISTINCT keyword do in a SELECT query?",
+      "options": [
+        "Sorts the result set",
+        "Returns only unique values",
+        "Groups similar values",
+        "Joins tables"
+      ],
+      "correct": "Returns only unique values"
+    },
+    {
+      "subject": "SQL",
+      "question": "Which SQL function calculates the average of a numeric column?",
+      "options": [
+        "SUM()",
+        "AVG()",
+        "COUNT()",
+        "MIN()"
+      ],
+      "correct": "AVG()"
+    },
+    {
+      "subject": "SQL",
+      "question": "What is the purpose of the CREATE TABLE statement?",
+      "options": [
+        "To delete a table",
+        "To modify an existing table",
+        "To create a new table",
+        "To retrieve data from a table"
+      ],
+      "correct": "To create a new table"
+    },
+    {
+      "subject": "SQL",
+      "question": "Which SQL keyword is used to combine multiple conditions in a WHERE clause?",
+      "options": [
+        "AND",
+        "JOIN",
+        "GROUP",
+        "SORT"
+      ],
+      "correct": "AND"
+    },
+    {
+      "subject": "SQL",
+      "question": "What does the LIKE operator do in SQL?",
+      "options": [
+        "Compares exact matches",
+        "Searches for a pattern in a column",
+        "Joins tables",
+        "Groups rows"
+      ],
+      "correct": "Searches for a pattern in a column"
+    },
+    {
+      "subject": "SQL",
+      "question": "Which SQL function returns the largest value in a column?",
+      "options": [
+        "MAX()",
+        "MIN()",
+        "AVG()",
+        "SUM()"
+      ],
+      "correct": "MAX()"
+    },
+    {
+      "subject": "SQL",
+      "question": "What is the purpose of the ALTER TABLE statement?",
+      "options": [
+        "To delete a table",
+        "To modify the structure of an existing table",
+        "To create a new table",
+        "To retrieve data"
+      ],
+      "correct": "To modify the structure of an existing table"
+    },
+    {
+      "subject": "SQL",
+      "question": "Which SQL keyword is used to handle NULL values in a query?",
+      "options": [
+        "IS NULL",
+        "NOT NULL",
+        "NULL CHECK",
+        "EMPTY"
+      ],
+      "correct": "IS NULL"
+    },
+    {
+      "subject": "SQL",
+      "question": "What does the UNION operator do in SQL?",
+      "options": [
+        "Combines the results of two or more SELECT statements",
+        "Joins tables based on a related column",
+        "Groups rows with similar values",
+        "Filters aggregated data"
+      ],
+      "correct": "Combines the results of two or more SELECT statements"
+    },
+    {
+      "subject": "SQL",
+      "question": "Which SQL statement is used to remove a table from a database?",
+      "options": [
+        "DELETE TABLE",
+        "DROP TABLE",
+        "REMOVE TABLE",
+        "TRUNCATE TABLE"
+      ],
+      "correct": "DROP TABLE"
+    },
+    {
+      "subject": "SQL",
+      "question": "What is the purpose of the IN operator in SQL?",
+      "options": [
+        "Checks if a value matches any value in a list",
+        "Joins tables",
+        "Groups rows",
+        "Sorts the result set"
+      ],
+      "correct": "Checks if a value matches any value in a list"
+    },
+    {
+        "subject": "DBMS",
+        "question": "What is a DBMS?",
+        "options": [
+          "A software to manage hardware resources",
+          "A system to manage databases",
+          "A tool for network management",
+          "A programming language"
+        ],
+        "correct": "A system to manage databases"
+      },
+      {
+        "subject": "DBMS",
+        "question": "Which of the following is a type of DBMS?",
+        "options": [
+          "Relational DBMS",
+          "Object-Oriented Programming",
+          "Procedural DBMS",
+          "Functional DBMS"
+        ],
+        "correct": "Relational DBMS"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is normalization in DBMS?",
+        "options": [
+          "Organizing data to reduce redundancy",
+          "Encrypting database records",
+          "Sorting data in ascending order",
+          "Backing up database files"
+        ],
+        "correct": "Organizing data to reduce redundancy"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is the purpose of a database schema?",
+        "options": [
+          "To store user credentials",
+          "To define the structure of a database",
+          "To execute SQL queries",
+          "To compress database files"
+        ],
+        "correct": "To define the structure of a database"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is a candidate key in DBMS?",
+        "options": [
+          "A key that can uniquely identify a row",
+          "A key used for encryption",
+          "A key for sorting records",
+          "A temporary key for queries"
+        ],
+        "correct": "A key that can uniquely identify a row"
+      },
+      {
+        "subject": "DBMS",
+        "question": "Which ACID property ensures that a transaction is fully completed or not executed at all?",
+        "options": [
+          "Atomicity",
+          "Consistency",
+          "Isolation",
+          "Durability"
+        ],
+        "correct": "Atomicity"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is a view in DBMS?",
+        "options": [
+          "A physical table in the database",
+          "A virtual table based on a query",
+          "A backup of the database",
+          "A log of database transactions"
+        ],
+        "correct": "A virtual table based on a query"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is the purpose of indexing in DBMS?",
+        "options": [
+          "To increase data redundancy",
+          "To improve query performance",
+          "To encrypt data",
+          "To compress the database"
+        ],
+        "correct": "To improve query performance"
+      },
+      {
+        "subject": "DBMS",
+        "question": "Which of the following is a NoSQL database type?",
+        "options": [
+          "MySQL",
+          "MongoDB",
+          "Oracle",
+          "SQL Server"
+        ],
+        "correct": "MongoDB"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is a composite key?",
+        "options": [
+          "A single column key",
+          "A key combining multiple columns",
+          "A key for temporary tables",
+          "A key for sorting"
+        ],
+        "correct": "A key combining multiple columns"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What does the term 'data integrity' refer to in DBMS?",
+        "options": [
+          "The speed of data retrieval",
+          "The accuracy and consistency of data",
+          "The size of the database",
+          "The encryption of data"
+        ],
+        "correct": "The accuracy and consistency of data"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is a transaction in DBMS?",
+        "options": [
+          "A single SQL query",
+          "A sequence of operations treated as a unit",
+          "A database backup",
+          "A user authentication process"
+        ],
+        "correct": "A sequence of operations treated as a unit"
+      },
+      {
+        "subject": "DBMS",
+        "question": "Which normal form eliminates transitive dependencies?",
+        "options": [
+          "First Normal Form (1NF)",
+          "Second Normal Form (2NF)",
+          "Third Normal Form (3NF)",
+          "Boyce-Codd Normal Form (BCNF)"
+        ],
+        "correct": "Third Normal Form (3NF)"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is the role of a database administrator (DBA)?",
+        "options": [
+          "Writing application code",
+          "Managing and maintaining the database",
+          "Designing user interfaces",
+          "Testing software"
+        ],
+        "correct": "Managing and maintaining the database"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is a deadlock in DBMS?",
+        "options": [
+          "A situation where transactions wait indefinitely for each other",
+          "A failed database backup",
+          "A corrupted database file",
+          "A slow query execution"
+        ],
+        "correct": "A situation where transactions wait indefinitely for each other"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is the purpose of a trigger in DBMS?",
+        "options": [
+          "To execute a query",
+          "To automatically perform an action when an event occurs",
+          "To create a backup",
+          "To encrypt data"
+        ],
+        "correct": "To automatically perform an action when an event occurs"
+      },
+      {
+        "subject": "DBMS",
+        "question": "Which of the following is a relational database management system?",
+        "options": [
+          "Cassandra",
+          "PostgreSQL",
+          "DynamoDB",
+          "Redis"
+        ],
+        "correct": "PostgreSQL"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is data redundancy in DBMS?",
+        "options": [
+          "Storing the same data multiple times",
+          "Encrypting data",
+          "Compressing data",
+          "Backing up data"
+        ],
+        "correct": "Storing the same data multiple times"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is the purpose of the ER diagram in DBMS?",
+        "options": [
+          "To represent the database structure visually",
+          "To execute SQL queries",
+          "To compress the database",
+          "To encrypt data"
+        ],
+        "correct": "To represent the database structure visually"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is a stored procedure in DBMS?",
+        "options": [
+          "A temporary table",
+          "A precompiled set of SQL statements",
+          "A backup file",
+          "A user authentication mechanism"
+        ],
+        "correct": "A precompiled set of SQL statements"
+      },
+      {
+        "subject": "DBMS",
+        "question": "Which of the following ensures data consistency across distributed databases?",
+        "options": [
+          "Normalization",
+          "Two-Phase Commit",
+          "Indexing",
+          "Encryption"
+        ],
+        "correct": "Two-Phase Commit"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is a clustered index in DBMS?",
+        "options": [
+          "An index that reorders the physical storage of data",
+          "An index that allows duplicate values",
+          "An index used for temporary tables",
+          "An index for sorting"
+        ],
+        "correct": "An index that reorders the physical storage of data"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is the purpose of a backup in DBMS?",
+        "options": [
+          "To improve query performance",
+          "To recover data in case of failure",
+          "To encrypt data",
+          "To sort data"
+        ],
+        "correct": "To recover data in case of failure"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is denormalization in DBMS?",
+        "options": [
+          "Adding redundancy to improve performance",
+          "Removing redundancy",
+          "Encrypting data",
+          "Creating indexes"
+        ],
+        "correct": "Adding redundancy to improve performance"
+      },
+      {
+        "subject": "DBMS",
+        "question": "What is the CAP theorem in distributed databases?",
+        "options": [
+          "A principle about Consistency, Availability, and Partition Tolerance",
+          "A rule for database normalization",
+          "A method for data encryption",
+          "A technique for query optimization"
+        ],
+        "correct": "A principle about Consistency, Availability, and Partition Tolerance"
+      },{
+        "subject": "OOPS",
+        "question": "What is the primary concept of Object-Oriented Programming?",
+        "options": [
+          "Procedural programming",
+          "Objects and classes",
+          "Functional programming",
+          "Event-driven programming"
+        ],
+        "correct": "Objects and classes"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is encapsulation in OOPS?",
+        "options": [
+          "Hiding data and methods within a class",
+          "Inheriting properties from another class",
+          "Overriding methods",
+          "Creating multiple instances of a class"
+        ],
+        "correct": "Hiding data and methods within a class"
+      },
+      {
+        "subject": "OOPS",
+        "question": "Which OOPS principle allows a subclass to inherit properties from a parent class?",
+        "options": [
+          "Polymorphism",
+          "Inheritance",
+          "Encapsulation",
+          "Abstraction"
+        ],
+        "correct": "Inheritance"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is polymorphism in OOPS?",
+        "options": [
+          "The ability of objects to take multiple forms",
+          "Hiding implementation details",
+          "Creating private methods",
+          "Reusing code"
+        ],
+        "correct": "The ability of objects to take multiple forms"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is abstraction in OOPS?",
+        "options": [
+          "Exposing only necessary details and hiding complexity",
+          "Inheriting properties",
+          "Overloading methods",
+          "Creating multiple objects"
+        ],
+        "correct": "Exposing only necessary details and hiding complexity"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is a class in OOPS?",
+        "options": [
+          "An instance of an object",
+          "A blueprint for creating objects",
+          "A method for data processing",
+          "A variable type"
+        ],
+        "correct": "A blueprint for creating objects"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is an object in OOPS?",
+        "options": [
+          "A function",
+          "An instance of a class",
+          "A data type",
+          "A variable"
+        ],
+        "correct": "An instance of a class"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is method overriding in OOPS?",
+        "options": [
+          "Defining a method with the same name in a subclass",
+          "Calling a method multiple times",
+          "Creating a new method",
+          "Hiding a method"
+        ],
+        "correct": "Defining a method with the same name in a subclass"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is method overloading in OOPS?",
+        "options": [
+          "Defining multiple methods with the same name but different parameters",
+          "Calling a method repeatedly",
+          "Hiding a method",
+          "Inheriting a method"
+        ],
+        "correct": "Defining multiple methods with the same name but different parameters"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is a constructor in OOPS?",
+        "options": [
+          "A method to destroy objects",
+          "A special method to initialize objects",
+          "A method to override parent class",
+          "A method to encapsulate data"
+        ],
+        "correct": "A special method to initialize objects"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is the purpose of the 'this' keyword in OOPS?",
+        "options": [
+          "To refer to the current object",
+          "To create a new object",
+          "To call a static method",
+          "To inherit a class"
+        ],
+        "correct": "To refer to the current object"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is a static method in OOPS?",
+        "options": [
+          "A method that belongs to the class rather than an instance",
+          "A method that cannot be overridden",
+          "A method that is private",
+          "A method that is abstract"
+        ],
+        "correct": "A method that belongs to the class rather than an instance"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is an interface in OOPS?",
+        "options": [
+          "A class with private methods",
+          "A contract for classes to implement methods",
+          "A method to create objects",
+          "A type of constructor"
+        ],
+        "correct": "A contract for classes to implement methods"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is the difference between a class and an object?",
+        "options": [
+          "A class is an instance, and an object is a blueprint",
+          "A class is a blueprint, and an object is an instance",
+          "A class is a method, and an object is a variable",
+          "A class is abstract, and an object is static"
+        ],
+        "correct": "A class is a blueprint, and an object is an instance"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is a destructor in OOPS?",
+        "options": [
+          "A method to initialize objects",
+          "A method to clean up resources when an object is destroyed",
+          "A method to override methods",
+          "A method to encapsulate data"
+        ],
+        "correct": "A method to clean up resources when an object is destroyed"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is the purpose of access modifiers in OOPS?",
+        "options": [
+          "To control the visibility of class members",
+          "To create new objects",
+          "To override methods",
+          "To inherit classes"
+        ],
+        "correct": "To control the visibility of class members"
+      },
+      {
+        "subject": "OOPS",
+        "question": "Which access modifier makes a member accessible only within the same class?",
+        "options": [
+          "Public",
+          "Private",
+          "Protected",
+          "Default"
+        ],
+        "correct": "Private"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is multiple inheritance?",
+        "options": [
+          "A class inheriting from multiple parent classes",
+          "A class with multiple constructors",
+          "A class with multiple objects",
+          "A class with multiple methods"
+        ],
+        "correct": "A class inheriting from multiple parent classes"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is an abstract class in OOPS?",
+        "options": [
+          "A class that cannot be instantiated",
+          "A class with only private methods",
+          "A class with no methods",
+          "A class with only static methods"
+        ],
+        "correct": "A class that cannot be instantiated"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is the purpose of the 'super' keyword in OOPS?",
+        "options": [
+          "To call the parent class's methods or constructor",
+          "To create a new object",
+          "To make a method static",
+          "To encapsulate data"
+        ],
+        "correct": "To call the parent class's methods or constructor"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is a final class in OOPS?",
+        "options": [
+          "A class that cannot be inherited",
+          "A class with no methods",
+          "A class with private members",
+          "A class with static methods"
+        ],
+        "correct": "A class that cannot be inherited"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is the diamond problem in OOPS?",
+        "options": [
+          "A problem with multiple inheritance",
+          "A problem with method overloading",
+          "A problem with encapsulation",
+          "A problem with abstraction"
+        ],
+        "correct": "A problem with multiple inheritance"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is composition in OOPS?",
+        "options": [
+          "A class containing an instance of another class",
+          "Inheriting from multiple classes",
+          "Overriding methods",
+          "Creating abstract classes"
+        ],
+        "correct": "A class containing an instance of another class"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is the purpose of the 'instanceof' operator in OOPS?",
+        "options": [
+          "To check if an object is of a specific type",
+          "To create a new object",
+          "To call a method",
+          "To encapsulate data"
+        ],
+        "correct": "To check if an object is of a specific type"
+      },
+      {
+        "subject": "OOPS",
+        "question": "What is the Single Responsibility Principle in OOPS?",
+        "options": [
+          "A class should have only one reason to change",
+          "A class should inherit from multiple classes",
+          "A class should have private methods",
+          "A class should be abstract"
+        ],
+        "correct": "A class should have only one reason to change"
+      },
+      {
+        "subject": "Python",
+        "question": "What is Python, and why is it popular?",
+        "options": [
+          "A database management system",
+          "A high-level, interpreted programming language",
+          "A low-level assembly language",
+          "A web browser"
+        ],
+        "correct": "A high-level, interpreted programming language"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between a list and a tuple in Python?",
+        "options": [
+          "Lists are immutable, tuples are mutable",
+          "Lists are mutable, tuples are immutable",
+          "Both are immutable",
+          "Both are mutable"
+        ],
+        "correct": "Lists are mutable, tuples are immutable"
+      },
+      {
+        "subject": "Python",
+        "question": "What is PEP 8?",
+        "options": [
+          "A Python database library",
+          "A style guide for Python code",
+          "A Python testing framework",
+          "A Python package manager"
+        ],
+        "correct": "A style guide for Python code"
+      },
+      {
+        "subject": "Python",
+        "question": "How does Python handle memory management?",
+        "options": [
+          "Manually by the programmer",
+          "Using garbage collection",
+          "Using static memory allocation",
+          "Using a stack-based approach"
+        ],
+        "correct": "Using garbage collection"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the purpose of the 'self' keyword in Python?",
+        "options": [
+          "To refer to the class blueprint",
+          "To refer to the current instance of the class",
+          "To define a static method",
+          "To create a new variable"
+        ],
+        "correct": "To refer to the current instance of the class"
+      },
+      {
+        "subject": "Python",
+        "question": "What is a lambda function in Python?",
+        "options": [
+          "A named function with multiple arguments",
+          "An anonymous, inline function",
+          "A function that runs in a loop",
+          "A function for database operations"
+        ],
+        "correct": "An anonymous, inline function"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between '==' and 'is' operators in Python?",
+        "options": [
+          "'==' checks identity, 'is' checks value equality",
+          "'==' checks value equality, 'is' checks identity",
+          "Both check value equality",
+          "Both check identity"
+        ],
+        "correct": "'==' checks value equality, 'is' checks identity"
+      },
+      {
+        "subject": "Python",
+        "question": "What are Python decorators?",
+        "options": [
+          "Functions that modify the behavior of other functions",
+          "Classes that inherit from other classes",
+          "Modules for database connectivity",
+          "Syntax for error handling"
+        ],
+        "correct": "Functions that modify the behavior of other functions"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the use of the 'pass' statement in Python?",
+        "options": [
+          "To terminate a loop",
+          "To act as a placeholder for future code",
+          "To raise an exception",
+          "To import a module"
+        ],
+        "correct": "To act as a placeholder for future code"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between a shallow copy and a deep copy?",
+        "options": [
+          "Shallow copy copies references, deep copy copies values",
+          "Deep copy copies references, shallow copy copies values",
+          "Both copy references",
+          "Both copy values"
+        ],
+        "correct": "Shallow copy copies references, deep copy copies values"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the purpose of the 'if __name__ == \"__main__\"' idiom in Python?",
+        "options": [
+          "To define a class",
+          "To check if a module is run directly or imported",
+          "To handle exceptions",
+          "To create a loop"
+        ],
+        "correct": "To check if a module is run directly or imported"
+      },
+      {
+        "subject": "Python",
+        "question": "What are list comprehensions in Python?",
+        "options": [
+          "A way to create lists using concise syntax",
+          "A method for sorting lists",
+          "A function for merging lists",
+          "A tool for debugging lists"
+        ],
+        "correct": "A way to create lists using concise syntax"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the Global Interpreter Lock (GIL) in Python?",
+        "options": [
+          "A lock for securing database connections",
+          "A mutex that protects access to Python objects",
+          "A tool for compiling Python code",
+          "A method for parallel processing"
+        ],
+        "correct": "A mutex that protects access to Python objects"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between 'append()' and 'extend()' methods in Python lists?",
+        "options": [
+          "'append()' adds an element, 'extend()' adds multiple elements",
+          "'extend()' adds an element, 'append()' adds multiple elements",
+          "Both add single elements",
+          "Both add multiple elements"
+        ],
+        "correct": "'append()' adds an element, 'extend()' adds multiple elements"
+      },
+      {
+        "subject": "Python",
+        "question": "What are Python generators?",
+        "options": [
+          "Functions that return an iterator yielding values",
+          "Classes for creating objects",
+          "Modules for file handling",
+          "Tools for exception handling"
+        ],
+        "correct": "Functions that return an iterator yielding values"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the purpose of the 'try-except' block in Python?",
+        "options": [
+          "To define functions",
+          "To handle exceptions and errors",
+          "To create loops",
+          "To import modules"
+        ],
+        "correct": "To handle exceptions and errors"
+      },
+      {
+        "subject": "Python",
+        "question": "What is a dictionary in Python?",
+        "options": [
+          "A collection of ordered elements",
+          "A key-value pair data structure",
+          "A list of tuples",
+          "A set of unique values"
+        ],
+        "correct": "A key-value pair data structure"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between a set and a list in Python?",
+        "options": [
+          "Sets are ordered, lists are unordered",
+          "Sets are unordered and unique, lists are ordered and allow duplicates",
+          "Lists are immutable, sets are mutable",
+          "Sets are mutable, lists are immutable"
+        ],
+        "correct": "Sets are unordered and unique, lists are ordered and allow duplicates"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the purpose of the 'with' statement in Python?",
+        "options": [
+          "To define a loop",
+          "To manage resources like files with automatic cleanup",
+          "To create a class",
+          "To handle exceptions"
+        ],
+        "correct": "To manage resources like files with automatic cleanup"
+      },
+      {
+        "subject": "Python",
+        "question": "What are *args and **kwargs in Python?",
+        "options": [
+          "Variables for loops",
+          "Syntax for variable-length arguments",
+          "Decorators for functions",
+          "Modules for data processing"
+        ],
+        "correct": "Syntax for variable-length arguments"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between Python 2 and Python 3?",
+        "options": [
+          "Python 2 uses Unicode by default, Python 3 does not",
+          "Python 3 uses print as a function, Python 2 uses a statement",
+          "Python 2 is faster than Python 3",
+          "Python 3 is backward compatible with Python 2"
+        ],
+        "correct": "Python 3 uses print as a function, Python 2 uses a statement"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the purpose of the 'zip()' function in Python?",
+        "options": [
+          "To compress files",
+          "To combine multiple iterables into tuples",
+          "To sort lists",
+          "To split strings"
+        ],
+        "correct": "To combine multiple iterables into tuples"
+      },
+      {
+        "subject": "Python",
+        "question": "What is a virtual environment in Python?",
+        "options": [
+          "A tool for debugging code",
+          "An isolated environment for Python projects",
+          "A cloud-based Python interpreter",
+          "A library for GUI development"
+        ],
+        "correct": "An isolated environment for Python projects"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the difference between a module and a package in Python?",
+        "options": [
+          "A module is a directory, a package is a file",
+          "A module is a file, a package is a directory with modules",
+          "Both are files",
+          "Both are directories"
+        ],
+        "correct": "A module is a file, a package is a directory with modules"
+      },
+      {
+        "subject": "Python",
+        "question": "What is the purpose of the 'map()' function in Python?",
+        "options": [
+          "To filter elements in a list",
+          "To apply a function to all items in an iterable",
+          "To sort a list",
+          "To create a dictionary"
+        ],
+        "correct": "To apply a function to all items in an iterable"
+      }
+]

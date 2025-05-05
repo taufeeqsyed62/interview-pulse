@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Interview Pulse </title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <!-- Home Page -->
+    <div id="home" class="page active">
+        <nav class="navbar">
+            <h1>Interview Pulse</h1>
+          </nav>
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div class="progress-bar__fill"></div>
+        </div>
+        <div class="progress-text">0%</div>
+      </div>
+      <div class="stats">
+        <div class="card">
+          <h3>Total Questions</h3>
+          <p id="total-questions">0</p>
+        </div>
+        <div class="card">
+          <h3>Completed</h3>
+          <p id="completed-questions">0</p>
+        </div>
+      </div>
+      <div class="actions">
+        <button id="start-quiz" class="btn btn-primary pulse">
+          <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+          </svg>
+          Start Quiz
+        </button>
+        <button id="answers-page" class="btn btn-secondary">
+          <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3v19"></path>
+            <path d="M5 19h14"></path>
+          </svg>
+          View Answers
+        </button>
+        <button id="play-again" class="btn btn-outline">
+          <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 2v6h6"></path>
+            <path d="M3 13a9 9 0 1 0 3-7.7L3 8"></path>
+          </svg>
+          Play Again
+        </button>
+        <button id="review-answers" class="btn btn-warning">
+          <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"></path>
+            <path d="M9 9h6v6H9z"></path>
+          </svg>
+          Review Wrong Answers
+        </button>
+      </div>
+    </div>
+
+    <!-- Quiz Page -->
+    <div id="quiz" class="page">
+      <button id="quiz-back" class="back-button">
+        <svg class="back-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 12H5"></path>
+          <path d="M12 19l-7-7 7-7"></path>
+        </svg>
+        Back to Home
+      </button>
+      <div class="quiz-header">
+        <select id="subject-filter" aria-label="Filter by subject">
+          <option value="">All Subjects</option>
+        </select>
+        <button id="random-question" class="btn btn-primary">
+          <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 3h5v5"></path>
+            <path d="M4 20L21 3"></path>
+            <path d="M21 16v5h-5"></path>
+            <path d="M15 15l6 6"></path>
+            <path d="M4 4l5 5"></path>
+          </svg>
+          Random Question
+        </button>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-bar__fill"></div>
+      </div>
+      <div id="question-index">Question 1 of 10</div>
+      <div class="card">
+        <h2 id="quiz-question"></h2>
+        <div id="options" class="options"></div>
+      </div>
+    </div>
+
+    <!-- Answers Page -->
+    <div id="answers" class="page">
+      <button id="answers-back" class="back-button">
+        <svg class="back-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 12H5"></path>
+          <path d="M12 19l-7-7 7-7"></path>
+        </svg>
+        Back to Home
+      </button>
+      <select id="answers-subject-filter" aria-label="Filter answers by subject">
+        <option value="">All Subjects</option>
+      </select>
+      <div id="answers-list"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
