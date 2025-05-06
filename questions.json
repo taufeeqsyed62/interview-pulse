@@ -1547,6 +1547,443 @@
           "To create loops"
         ],
         "correct": "To serialize and deserialize Python objects"
-      }
+      },  {
+        "subject": "SQL CODES",
+        "question": "Which SQL query will retrieve all records from the 'employees' table?",
+        "options": [
+          "SELECT * FROM employees;",
+          "GET ALL FROM employees;",
+          "FETCH ALL ROWS employees;",
+          "SHOW * FROM employees;"
+        ],
+        "correct": "SELECT * FROM employees;"
+      },
+      {
+        "subject": "SQL CODES",
+        "question": "Which SQL command is used to remove a table permanently from the database?",
+        "options": [
+          "DELETE TABLE employees;",
+          "REMOVE TABLE employees;",
+          "DROP TABLE employees;",
+          "ERASE TABLE employees;"
+        ],
+        "correct": "DROP TABLE employees;"
+      },
+      {
+        "subject": "SQL CODES",
+        "question": "How do you select only the 'name' and 'age' columns from a table called 'students'?",
+        "options": [
+          "SELECT name, age FROM students;",
+          "CHOOSE name, age FROM students;",
+          "SELECT name AND age FROM students;",
+          "GET name, age OF students;"
+        ],
+        "correct": "SELECT name, age FROM students;"
+      },
+      {
+        "subject": "SQL CODES",
+        "question": "Which SQL query is used to insert a new record into the 'customers' table?",
+        "options": [
+          "ADD INTO customers VALUES ('John', 'Doe');",
+          "INSERT INTO customers VALUES ('John', 'Doe');",
+          "PUT INTO customers ('John', 'Doe');",
+          "APPEND INTO customers VALUES ('John', 'Doe');"
+        ],
+        "correct": "INSERT INTO customers VALUES ('John', 'Doe');"
+      },
+      {
+        "subject": "SQL CODES",
+        "question": "Which SQL statement will return only unique job titles from the 'employees' table?",
+        "options": [
+          "SELECT UNIQUE job_title FROM employees;",
+          "SELECT ALL job_title FROM employees;",
+          "SELECT DISTINCT job_title FROM employees;",
+          "SELECT job_title DISTINCT FROM employees;"
+        ],
+        "correct": "SELECT DISTINCT job_title FROM employees;"
+      },
+      {
+        "subject": "SQL CODES",
+        "question": "What is the correct SQL query to update the salary of an employee with id 5?",
+        "options": [
+          "UPDATE employees SET salary = 50000 WHERE id = 5;",
+          "MODIFY employees SET salary = 50000 WHERE id = 5;",
+          "CHANGE employees.salary = 50000 WHERE id = 5;",
+          "SET salary = 50000 IN employees WHERE id = 5;"
+        ],
+        "correct": "UPDATE employees SET salary = 50000 WHERE id = 5;"
+      },
+      {
+        "subject": "SQL CODES",
+        "question": "Which SQL command is used to remove duplicate rows from a result set?",
+        "options": [
+          "SELECT REMOVE DUPLICATES * FROM table;",
+          "SELECT * FROM table GROUP BY *;",
+          "SELECT DISTINCT * FROM table;",
+          "SELECT * FROM table UNIQUE;"
+        ],
+        "correct": "SELECT DISTINCT * FROM table;"
+      },
+      {
+        "subject": "SQL CODES",
+        "question": "How do you count the total number of records in a 'sales' table?",
+        "options": [
+          "SELECT TOTAL FROM sales;",
+          "SELECT COUNT(*) FROM sales;",
+          "SELECT SUM(*) FROM sales;",
+          "SELECT RECORDS FROM sales;"
+        ],
+        "correct": "SELECT COUNT(*) FROM sales;"
+      },
+      {
+        "subject": "SQL CODES",
+        "question": "What SQL clause is used to filter the records returned by a SELECT statement?",
+        "options": [
+          "ORDER BY",
+          "FILTER BY",
+          "GROUP BY",
+          "WHERE"
+        ],
+        "correct": "WHERE"
+      },
+      {
+        "subject": "SQL CODES",
+        "question": "Which SQL query returns the highest salary from 'employees' table?",
+        "options": [
+          "SELECT MAX(salary) FROM employees;",
+          "SELECT TOP salary FROM employees;",
+          "SELECT salary FROM employees ORDER BY salary DESC;",
+          "SELECT HIGHEST(salary) FROM employees;"
+        ],
+        "correct": "SELECT MAX(salary) FROM employees;"
+      },{
+        "subject": "SQL CODES",
+        "question": "How do you rename a table from 'old_table' to 'new_table'?",
+        "options": [
+            "MODIFY TABLE old_table TO new_table;",
+            "RENAME old_table AS new_table;",
+            "RENAME TABLE old_table TO new_table;",
+            "CHANGE old_table TO new_table;"
+        ],
+        "correct": "RENAME TABLE old_table TO new_table;"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "Which SQL clause is used to sort the result-set by a specific column?",
+        "options": [
+            "GROUP BY",
+            "ORDER BY",
+            "SORT BY",
+            "FILTER BY"
+        ],
+        "correct": "ORDER BY"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "Which SQL function returns the number of rows that matches a specified criterion?",
+        "options": [
+            "COUNT()",
+            "SUM()",
+            "MAX()",
+            "AVG()"
+        ],
+        "correct": "COUNT()"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "How do you find the average salary in the 'employees' table?",
+        "options": [
+            "SELECT AVG(salary) FROM employees;",
+            "SELECT MEAN(salary) FROM employees;",
+            "SELECT AVERAGE(salary) FROM employees;",
+            "SELECT MID(salary) FROM employees;"
+        ],
+        "correct": "SELECT AVG(salary) FROM employees;"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "Which SQL clause is used with aggregate functions to group the result-set?",
+        "options": [
+            "GROUP BY",
+            "ORDER BY",
+            "WHERE",
+            "HAVING"
+        ],
+        "correct": "GROUP BY"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "What does the following query return? SELECT * FROM products WHERE price BETWEEN 10 AND 20;",
+        "options": [
+            "All products priced under 10",
+            "All products priced over 20",
+            "Products with price equal to 10 or 20 only",
+            "All products priced between 10 and 20 inclusive"
+        ],
+        "correct": "All products priced between 10 and 20 inclusive"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "How do you delete all rows from a table but keep the structure?",
+        "options": [
+            "DELETE * FROM table;",
+            "REMOVE ALL FROM table;",
+            "TRUNCATE TABLE table;",
+            "DROP TABLE table;"
+        ],
+        "correct": "TRUNCATE TABLE table;"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "Which keyword is used to fetch only rows that meet a condition after grouping?",
+        "options": [
+            "WHERE",
+            "IF",
+            "HAVING",
+            "CHECK"
+        ],
+        "correct": "HAVING"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "How do you retrieve the top 5 highest-paid employees?",
+        "options": [
+            "SELECT TOP 5 * FROM employees ORDER BY salary DESC;",
+            "SELECT * FROM employees ORDER BY salary DESC LIMIT 5;",
+            "SELECT * FROM employees LIMIT 5 ORDER BY salary DESC;",
+            "SELECT FIRST 5 * FROM employees ORDER salary DESC;"
+        ],
+        "correct": "SELECT * FROM employees ORDER BY salary DESC LIMIT 5;"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "Which clause is used to limit the number of rows returned?",
+        "options": [
+            "LIMIT",
+            "TOP",
+            "ROWNUM",
+            "FETCH"
+        ],
+        "correct": "LIMIT"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "What is the result of SELECT NULL + 5;",
+        "options": [
+            "5",
+            "NULL",
+            "0",
+            "Error"
+        ],
+        "correct": "NULL"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "How do you change a column name in a table?",
+        "options": [
+            "ALTER TABLE table_name CHANGE old_name new_name;",
+            "RENAME COLUMN old_name TO new_name;",
+            "MODIFY TABLE table_name RENAME COLUMN old_name TO new_name;",
+            "ALTER TABLE table_name RENAME COLUMN old_name TO new_name;"
+        ],
+        "correct": "ALTER TABLE table_name RENAME COLUMN old_name TO new_name;"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "How do you select records where name starts with 'A'?",
+        "options": [
+            "SELECT * FROM users WHERE name LIKE 'A%';",
+            "SELECT * FROM users WHERE name = 'A';",
+            "SELECT * FROM users WHERE name = '%A';",
+            "SELECT * FROM users WHERE name LIKE '%A';"
+        ],
+        "correct": "SELECT * FROM users WHERE name LIKE 'A%';"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "How do you check if a column 'email' has NULL values?",
+        "options": [
+            "SELECT * FROM users WHERE email = NULL;",
+            "SELECT * FROM users WHERE email IS NULL;",
+            "SELECT * FROM users WHERE email == NULL;",
+            "SELECT * FROM users WHERE email NOT EXISTS;"
+        ],
+        "correct": "SELECT * FROM users WHERE email IS NULL;"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "Which SQL statement is used to create a new table?",
+        "options": [
+            "NEW TABLE",
+            "MAKE TABLE",
+            "CREATE TABLE",
+            "INSERT TABLE"
+        ],
+        "correct": "CREATE TABLE"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "How do you select all rows where age is greater than 25?",
+        "options": [
+            "SELECT * FROM people WHERE age > 25;",
+            "SELECT * FROM people WHERE age >= 25;",
+            "SELECT * FROM people WHERE age != 25;",
+            "SELECT * FROM people WHERE age < 25;"
+        ],
+        "correct": "SELECT * FROM people WHERE age > 25;"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "Which keyword is used to avoid duplicate entries in SELECT results?",
+        "options": [
+            "UNIQUE",
+            "ONLY",
+            "DISTINCT",
+            "SINGLE"
+        ],
+        "correct": "DISTINCT"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "How do you get the current date in SQL?",
+        "options": [
+            "SELECT CURRENT_DATE;",
+            "SELECT NOW();",
+            "SELECT GETDATE();",
+            "SELECT TODAY();"
+        ],
+        "correct": "SELECT CURRENT_DATE;"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "Which SQL function is used to calculate total sum of a column?",
+        "options": [
+            "TOTAL()",
+            "SUM()",
+            "ADD()",
+            "CALC()"
+        ],
+        "correct": "SUM()"
+    },
+    {
+        "subject": "SQL CODES",
+        "question": "Which SQL command removes rows matching a condition?",
+        "options": [
+            "REMOVE FROM table WHERE condition;",
+            "DELETE FROM table WHERE condition;",
+            "ERASE FROM table WHERE condition;",
+            "DROP FROM table WHERE condition;"
+        ],
+        "correct": "DELETE FROM table WHERE condition;"
+    }, {
+      "subject": "SQL CODES",
+      "question": "How do you insert a new row into a table 'students' with name 'John' and age 20?",
+      "options": [
+        "INSERT INTO students VALUES ('John', 20);",
+        "ADD INTO students (name, age) VALUES ('John', 20);",
+        "INSERT students (name, age) VALUES ('John', 20);",
+        "INSERT INTO students (John, 20);"
+      ],
+      "correct": "INSERT INTO students VALUES ('John', 20);"
+    },
+    {
+      "subject": "SQL CODES",
+      "question": "How do you add a new column 'email' to an existing table 'users'?",
+      "options": [
+        "ALTER TABLE users ADD COLUMN email VARCHAR(100);",
+        "MODIFY TABLE users ADD email TEXT;",
+        "INSERT COLUMN email TO users;",
+        "ALTER users ADD email;"
+      ],
+      "correct": "ALTER TABLE users ADD COLUMN email VARCHAR(100);"
+    },
+    {
+      "subject": "SQL CODES",
+      "question": "What SQL statement is used to remove a table completely?",
+      "options": [
+        "DELETE TABLE table_name;",
+        "REMOVE table_name;",
+        "DROP TABLE table_name;",
+        "TRUNCATE table_name;"
+      ],
+      "correct": "DROP TABLE table_name;"
+    },
+    {
+      "subject": "SQL CODES",
+      "question": "How do you update the 'salary' to 50000 where employee id is 101?",
+      "options": [
+        "SET salary = 50000 WHERE id = 101;",
+        "UPDATE employees SET salary = 50000 WHERE id = 101;",
+        "MODIFY employees SET salary = 50000 WHERE id = 101;",
+        "UPDATE employees WHERE id = 101 SET salary = 50000;"
+      ],
+      "correct": "UPDATE employees SET salary = 50000 WHERE id = 101;"
+    },
+    {
+      "subject": "SQL CODES",
+      "question": "Which clause is used to filter rows before grouping?",
+      "options": [
+        "GROUP BY",
+        "HAVING",
+        "WHERE",
+        "ORDER BY"
+      ],
+      "correct": "WHERE"
+    },
+    {
+      "subject": "SQL CODES",
+      "question": "How do you count distinct departments in a company table?",
+      "options": [
+        "SELECT COUNT(department) FROM company;",
+        "SELECT COUNT(*) FROM DISTINCT company.department;",
+        "SELECT COUNT(DISTINCT department) FROM company;",
+        "SELECT DISTINCT COUNT(department) FROM company;"
+      ],
+      "correct": "SELECT COUNT(DISTINCT department) FROM company;"
+    },
+    {
+      "subject": "SQL CODES",
+      "question": "What does the query SELECT LENGTH('SQL') return?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "Error"
+      ],
+      "correct": "3"
+    },
+    {
+      "subject": "SQL CODES",
+      "question": "How do you round a number to 2 decimal places in SQL?",
+      "options": [
+        "SELECT ROUND(value, 2);",
+        "SELECT DECIMAL(value, 2);",
+        "SELECT FORMAT(value, 2);",
+        "SELECT TO_DECIMAL(value, 2);"
+      ],
+      "correct": "SELECT ROUND(value, 2);"
+    },
+    {
+      "subject": "SQL CODES",
+      "question": "How to select records where name ends with 'n'?",
+      "options": [
+        "SELECT * FROM users WHERE name LIKE '%n';",
+        "SELECT * FROM users WHERE name = 'n%';",
+        "SELECT * FROM users WHERE name == '%n';",
+        "SELECT * FROM users WHERE name LIKE 'n%';"
+      ],
+      "correct": "SELECT * FROM users WHERE name LIKE '%n';"
+    },
+    {
+      "subject": "SQL CODES",
+      "question": "How to retrieve the maximum salary from employees table?",
+      "options": [
+        "SELECT MAX(salary) FROM employees;",
+        "SELECT salary(MAX) FROM employees;",
+        "SELECT MAXIMUM(salary) FROM employees;",
+        "SELECT salary FROM employees WHERE salary = MAX;"
+      ],
+      "correct": "SELECT MAX(salary) FROM employees;"
+    }
       
 ]
